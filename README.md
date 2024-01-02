@@ -38,8 +38,6 @@ model.fit(lm_dataset, epochs=200, callbacks=[text_gen_callback])
 
 The generated text showcases the impact of temperature on the diversity and creativity of the language model. As mentioned in the code, a low temperature results in repetitive text, while higher temperatures lead to more interesting and creative outputs. A recommended generation temperature of about 0.7 provides a balanced mix of learned structure and randomness.
 
-> As you can see, a low temperature value results in very boring and repetitive text and can sometimes cause the generation process to get stuck in a loop. With higher temperatures, the generated text becomes more interesting, surprising, even creative. With a very high temperature, the local structure starts to break down, and the output looks largely random. Here, a good generation temperature would seem to be about 0.7. Always experiment with multiple sampling strategies! A clever balance between learned structure and randomness is what makes generation interesting.
-
 ## GPT-3 Comparison
 
 It's worth noting that GPT-3, a state-of-the-art language model, shares similarities with the architecture trained in this example. GPT-3 employs a deep stack of Transformer decoders and a significantly larger training corpus.
