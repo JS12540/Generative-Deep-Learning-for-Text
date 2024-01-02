@@ -32,6 +32,7 @@ To train the model, use the provided language modeling dataset (`lm_dataset`). T
 
 ```python
 model.fit(lm_dataset, epochs=200, callbacks=[text_gen_callback])
+```
 
 ## Text Generation Observations
 
